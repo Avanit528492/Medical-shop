@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrount_contactus"
+    tools:context=".Contact_Us">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_vertical"
+        >
+        <androidx.cardview.widget.CardView
+            android:layout_width="320dp"
+            android:layout_gravity="center_horizontal"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="10dp"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact Us"
+                android:layout_marginTop="20dp"
+                android:textAlignment="center"
+                android:textSize="25dp"
+                android:textColor="#000"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="2dp"
+                android:textAlignment="center"
+                android:background="@drawable/blackborder"
+                android:textColor="#000"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Just Call"
+                    android:layout_marginTop="10dp"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:textColor="#FD0303"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8140585142"
+                    android:layout_marginTop="1dp"
+                    android:textAlignment="center"
+                    android:fontFamily="serif-monospace"
+                    android:textSize="30dp"
+                    android:textColor="#FD0303"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Timing: 10AM-7PM daily"
+                    android:layout_marginTop="10dp"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:textColor="#000"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Email Us"
+                    android:layout_marginTop="5dp"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:textColor="#000"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="avanitdiyora528492@gmail.com"
+                    android:layout_marginTop="5dp"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:textColor="#FD0303"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal" />
+
+                <LinearLayout
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:layout_marginBottom="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:id="@+id/instagram"
+                        android:layout_gravity="center_horizontal"
+                        android:padding="2dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/i1"/>
+                    <ImageView
+                        android:id="@+id/facebook"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/i3"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</LinearLayout>

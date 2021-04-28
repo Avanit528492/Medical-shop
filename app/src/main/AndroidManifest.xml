@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.medicineshop">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/storelogo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".OpenActivity" android:theme="@style/openpage">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Contact_Us"/>
+        <activity android:name=".RateUs" android:theme="@style/Actionbar"/>
+        <activity android:name=".MyPurchase" android:theme="@style/Actionbar"/>
+        <activity
+            android:name=".AddToCart"
+            android:theme="@style/Actionbar" />
+        <activity android:name=".Category_Babyneeds" android:theme="@style/Actionbar"/>
+        <activity android:name=".Category_Diabeticneeds" android:theme="@style/Actionbar"/>
+        <activity android:name=".Category_Vitamins" android:theme="@style/Actionbar"/>
+        <activity android:name=".Category_Healthneeds" android:theme="@style/Actionbar"/>
+        <activity android:name=".Category_Nutrition" android:theme="@style/Actionbar"/>
+        <activity android:name=".Category_Personalcare" android:theme="@style/Actionbar"/>
+        <activity android:name=".SignUpActivity" android:theme="@style/No_action"/>
+        <activity android:name=".LoginActivity" android:theme="@style/No_action">
+
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Actionbar" />
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CFCDCD"
+    android:id="@+id/perent"
+    tools:context=".Category_Healthneeds">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:background="#CFCDCD"
+        android:paddingBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="15dp">
+
+                <com.smarteist.autoimageslider.SliderLayout
+                    android:id="@+id/healthneed_sliderlayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp" />
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/layoutcornerredius"
+            android:orientation="horizontal">
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:columnCount="2"
+                android:padding="10dp"
+                android:background="@drawable/layoutcornerredius"
+                android:rowCount="3"
+                android:alignmentMode="alignMargins"
+                android:columnOrderPreserved="false">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    app:cardElevation="8dp"
+                    app:cardCornerRadius="10dp"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:padding="8dp"
+                        android:background="@drawable/cardviewborder"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/category_healthneed_offer_1"
+                            android:layout_width="100dp"
+                            android:layout_height="25dp"
+                            android:textAlignment="center"
+                            android:background="@drawable/saveuptobackground"
+                            android:text="Save 5%"
+                            android:textColor="#fff"
+                            android:gravity="center_vertical"
+                            tools:ignore="RtlCompat" />
+                        <ImageView
+                            android:id="@+id/category_healthneed_image_1"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/healthneed_product_1"
+                            android:layout_gravity="center_horizontal"/>
+                        <TextView
+                            android:id="@+id/category_healthneed_name_1"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:textAlignment="center"
+                            android:text="Band AD"
+                            android:textColor="#000"
+                            android:gravity="center_vertical"
+                            tools:ignore="RtlCompat" />
+                        <TextView
+                            android:id="@+id/category_healthneed_price_1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:layout_marginTop="3dp"
+                            android:text="Rs 2"
+                            android:textSize="18dp"
+                            android:textColor="#FD0303"
+                            android:gravity="center_vertical"
+                            tools:ignore="RtlCompat" />
+
+                        <Button
+                            android:id="@+id/category_healthneed_button_1"
+                            android:layout_width="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:layout_height="35dp"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="16dp"
+                            android:layout_gravity="center_horizontal"
+                            android:background="@drawable/addtocartbackground"
+                            android:text="Add to Cart"
+                            android:textColor="#fff"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    app:cardElevation="8dp"
+                    app:cardCornerRadius="10dp"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:padding="8dp"
+                        android:background="@drawable/cardviewborder"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/category_healthneed_offer_2"
+                            android:layout_width="100dp"
+                            android:layout_height="25dp"
+                            android:textAlignment="center"
+                            android:background="@drawable/saveuptobackground"
+                            android:text="Save 5%"
+                            android:textColor="#fff"
+                            android:gravity="center_vertical"
+                            tools:ignore="RtlCompat" />
+                        <ImageView
+                            android:id="@+id/category_healthneed_image_2"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/healthneed_product_2"
+                            android:layout_gravity="center_horizontal"/>
+                        <TextView
+                            android:id="@+id/category_healthneed_name_2"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:textAlignment="center"
+                            android:text="Moov Spray"
+                            android:textColor="#000"
+                            android:gravity="center_vertical"
+                            tools:ignore="RtlCompat" />
+                        <TextView
+                            android:id="@+id/category_healthneed_price_2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:layout_marginTop="3dp"
+                            android:text="Rs 130"
+                            android:textSize="18dp"
+                            android:textColor="#FD0303"
+                            android:gravity="center_vertical"
+                            tools:ignore="RtlCompat" />
+
+                        <Button
+                            android:id="@+id/category_healthneed_button_2"
+                            android:layout_width="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:layout_height="35dp"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="16dp"
+                            android:layout_gravity="center_horizontal"
+                            android:background="@drawable/addtocartbackground"
+                            android:text="Add to Cart"
+                            android:textColor="#fff"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    app:cardElevation="8dp"
+                    app:cardCornerRadius="10dp"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:padding="8dp"
+                        android:background="@drawable/cardviewborder"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/category_healthneed_offer_3"
+                            android:layout_width="100dp"
+                            android:layout_height="25dp"
+                            android:textAlignment="center"
+                            android:background="@drawable/saveuptobackground"
+                            android:text="Save 5%"
+                            android:textColor="#fff"
+                            android:gravity="center_vertical"
+                            tools:ignore="RtlCompat" />
+                        <ImageView
+                            android:id="@+id/category_healthneed_image_3"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/healthneed_product_3"
+                            android:layout_gravity="center_horizontal"/>
+                        <TextView
+                            android:id="@+id/category_healthneed_name_3"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:textAlignment="center"
+                            android:text="Vicks Cream"
+                            android:textColor="#000"
+                            android:gravity="center_vertical"
+                            tools:ignore="RtlCompat" />
+                        <TextView
+                            android:id="@+id/category_healthneed_price_3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:layout_marginTop="3dp"
+                            android:text="Rs 135"
+                            android:textSize="18dp"
+                            android:textColor="#FD0303"
+                            android:gravity="center_vertical"
+                            tools:ignore="RtlCompat" />
+
+                        <Button
+                            android:id="@+id/category_healthneed_button_3"
+                            android:layout_width="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:layout_height="35dp"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="16dp"
+                            android:layout_gravity="center_horizontal"
+                            android:background="@drawable/addtocartbackground"
+                            android:text="Add to Cart"
+                            android:textColor="#fff"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    app:cardElevation="8dp"
+                    app:cardCornerRadius="10dp"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:padding="8dp"
+                        android:background="@drawable/cardviewborder"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/category_healthneed_offer_4"
+                            android:layout_width="100dp"
+                            android:layout_height="25dp"
+                            android:textAlignment="center"
+                            android:background="@drawable/saveuptobackground"
+                            android:text="Save 20%"
+                            android:textColor="#fff"
+                            android:gravity="center_vertical"
+                            tools:ignore="RtlCompat" />
+                        <ImageView
+                            android:id="@+id/category_healthneed_image_4"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/healthneed_product_4"
+                            android:layout_gravity="center_horizontal"/>
+                        <TextView
+                            android:id="@+id/category_healthneed_name_4"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:textAlignment="center"
+                            android:text="Dr Ortho Capsule"
+                            android:textColor="#000"
+                            android:gravity="center_vertical"
+                            tools:ignore="RtlCompat" />
+                        <TextView
+                            android:id="@+id/category_healthneed_price_4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:layout_marginTop="3dp"
+                            android:text="Rs 180"
+                            android:textSize="18dp"
+                            android:textColor="#FD0303"
+                            android:gravity="center_vertical"
+                            tools:ignore="RtlCompat" />
+
+                        <Button
+                            android:id="@+id/category_healthneed_button_4"
+                            android:layout_width="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:layout_height="35dp"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="16dp"
+                            android:layout_gravity="center_horizontal"
+                            android:background="@drawable/addtocartbackground"
+                            android:text="Add to Cart"
+                            android:textColor="#fff"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    app:cardElevation="8dp"
+                    app:cardCornerRadius="10dp"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:padding="8dp"
+                        android:background="@drawable/cardviewborder"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/category_healthneed_offer_5"
+                            android:layout_width="100dp"
+                            android:layout_height="25dp"
+                            android:textAlignment="center"
+                            android:background="@drawable/saveuptobackground"
+                            android:text="Save 5%"
+                            android:textColor="#fff"
+                            android:gravity="center_vertical"
+                            tools:ignore="RtlCompat" />
+                        <ImageView
+                            android:id="@+id/category_healthneed_image_5"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/healthneed_product_5"
+                            android:layout_gravity="center_horizontal"/>
+                        <TextView
+                            android:id="@+id/category_healthneed_name_5"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:textAlignment="center"
+                            android:text="Gelusil Mps Tab"
+                            android:textColor="#000"
+                            android:gravity="center_vertical"
+                            tools:ignore="RtlCompat" />
+                        <TextView
+                            android:id="@+id/category_healthneed_price_5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:layout_marginTop="3dp"
+                            android:text="Rs 210"
+                            android:textSize="18dp"
+                            android:textColor="#FD0303"
+                            android:gravity="center_vertical"
+                            tools:ignore="RtlCompat" />
+
+                        <Button
+                            android:id="@+id/category_healthneed_button_5"
+                            android:layout_width="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:layout_height="35dp"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="16dp"
+                            android:layout_gravity="center_horizontal"
+                            android:background="@drawable/addtocartbackground"
+                            android:text="Add to Cart"
+                            android:textColor="#fff"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    app:cardElevation="8dp"
+                    app:cardCornerRadius="10dp"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:padding="8dp"
+                        android:background="@drawable/cardviewborder"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/category_healthneed_offer_6"
+                            android:layout_width="100dp"
+                            android:layout_height="25dp"
+                            android:textAlignment="center"
+                            android:background="@drawable/saveuptobackground"
+                            android:text="Save 20%"
+                            android:textColor="#fff"
+                            android:gravity="center_vertical"
+                            tools:ignore="RtlCompat" />
+                        <ImageView
+                            android:id="@+id/category_healthneed_image_6"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/healthneed_product_6"
+                            android:layout_gravity="center_horizontal"/>
+                        <TextView
+                            android:id="@+id/category_healthneed_name_6"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:textAlignment="center"
+                            android:text="Nicotex Tab"
+                            android:textColor="#000"
+                            android:gravity="center_vertical"
+                            tools:ignore="RtlCompat" />
+                        <TextView
+                            android:id="@+id/category_healthneed_price_6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:layout_marginTop="3dp"
+                            android:text="Rs 100"
+                            android:textSize="18dp"
+                            android:textColor="#FD0303"
+                            android:gravity="center_vertical"
+                            tools:ignore="RtlCompat" />
+
+                        <Button
+                            android:id="@+id/category_healthneed_button_6"
+                            android:layout_width="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:layout_height="35dp"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="16dp"
+                            android:layout_gravity="center_horizontal"
+                            android:background="@drawable/addtocartbackground"
+                            android:text="Add to Cart"
+                            android:textColor="#fff"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </GridLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

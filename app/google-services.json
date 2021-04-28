@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "329425673701",
+    "firebase_url": "https://medicineshop-c343b.firebaseio.com",
+    "project_id": "medicineshop-c343b",
+    "storage_bucket": "medicineshop-c343b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:329425673701:android:4ddafbc4a4dfb45ecb230c",
+        "android_client_info": {
+          "package_name": "com.example.medicineshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "329425673701-vbbdmplagqcsgrmvfkfdg34emp7q3q8m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGkK0AEvPGc3mHhvseKo0f2ohMJ1Im0qI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "329425673701-vbbdmplagqcsgrmvfkfdg34emp7q3q8m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
